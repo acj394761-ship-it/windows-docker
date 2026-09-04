@@ -8,6 +8,8 @@ windows:
     environment:
       - VERSION=tiny11
       - DISK_SIZE=528G
+      - RAM_SIZE=15G
+      - CPU_CORES=4
     ports:
       - 8006:8006
       - 3389:3389/tcp
